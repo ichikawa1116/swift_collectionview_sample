@@ -2,20 +2,20 @@
 //  FirstViewController.swift
 //  swift_collectionview_sample
 //
-//  Created by Manami Ichikawa on 2018/02/25.
-//  Copyright © 2018 Manami Ichikawa. All rights reserved.
+//  Created by  on 2018/02/25.
+//  Copyright © 2018 . All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource,  UICollectionViewDelegate{
+class FirstViewController: UIViewController, UICollectionViewDelegateFlowLayout,  UICollectionViewDelegate{
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionView: SampleCollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.delegate = self
-        collectionView.dataSource = self
+//        collectionView.delegate = self
+//        collectionView.dataSource = self
         
         self.collectionView.register(UINib (nibName: "CustomCell", bundle: nil), forCellWithReuseIdentifier: "CustomCell")
     }
@@ -23,17 +23,17 @@ class FirstViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
         
-        return 10
+        return self.collectionView.pageCount * 3
     }
 
     
-    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
-        cell.sampleLb.textAlignment = NSTextAlignment.center
-        cell.sampleLb.text = String(indexPath.row)
-        return cell
-    }
+//    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+//        
+//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
+//        cell.sampleLb.textAlignment = NSTextAlignment.center
+//        cell.sampleLb.text = String(indexPath.row)
+//        return cell
+//    }
     
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
@@ -55,6 +55,4 @@ class FirstViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         return 20
     }
 }
-
-
 

@@ -20,7 +20,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSy-8n-cBF">
-                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <rect key="frame" x="10" y="10" width="30" height="30"/>
                         <color key="backgroundColor" red="0.78407545550000002" green="1" blue="0.99817144960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -29,14 +29,14 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="FSy-8n-cBF" secondAttribute="bottom" id="MmH-9k-4WC"/>
-                <constraint firstAttribute="trailing" secondItem="FSy-8n-cBF" secondAttribute="trailing" id="dS7-50-et5"/>
-                <constraint firstItem="FSy-8n-cBF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sSD-6O-JeT"/>
-                <constraint firstItem="FSy-8n-cBF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zgV-uF-CFR"/>
+                <constraint firstAttribute="bottom" secondItem="FSy-8n-cBF" secondAttribute="bottom" constant="10" id="MmH-9k-4WC"/>
+                <constraint firstAttribute="trailing" secondItem="FSy-8n-cBF" secondAttribute="trailing" constant="10" id="dS7-50-et5"/>
+                <constraint firstItem="FSy-8n-cBF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="sSD-6O-JeT"/>
+                <constraint firstItem="FSy-8n-cBF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="zgV-uF-CFR"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>
-                <outlet property="sampleLb" destination="FSy-8n-cBF" id="hSS-aY-TEP"/>
+                <outlet property="sampleLb" destination="FSy-8n-cBF" id="4KU-go-HJv"/>
             </connections>
         </collectionViewCell>
     </objects>

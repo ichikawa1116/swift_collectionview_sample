@@ -15,6 +15,8 @@
 		38045373204298E400ED4220 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38045372204298E400ED4220 /* FirstViewController.swift */; };
 		3804537B20429AC400ED4220 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804537920429AC400ED4220 /* CustomCell.swift */; };
 		3804537C20429AC400ED4220 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3804537A20429AC400ED4220 /* CustomCell.xib */; };
+		38080A142184893100CFB294 /* SampleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38080A132184893100CFB294 /* SampleCollectionView.swift */; };
+		380D106F21849D4500471150 /* PerCellPagingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D106E21849D4500471150 /* PerCellPagingFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		38045372204298E400ED4220 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3804537920429AC400ED4220 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		3804537A20429AC400ED4220 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		38080A132184893100CFB294 /* SampleCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionView.swift; sourceTree = "<group>"; };
+		380D106E21849D4500471150 /* PerCellPagingFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerCellPagingFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 			children = (
 				3804537920429AC400ED4220 /* CustomCell.swift */,
 				3804537A20429AC400ED4220 /* CustomCell.xib */,
+				38080A132184893100CFB294 /* SampleCollectionView.swift */,
+				380D106E21849D4500471150 /* PerCellPagingFlowLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +254,8 @@
 			files = (
 				380453502042988500ED4220 /* AppDelegate.swift in Sources */,
 				3804537B20429AC400ED4220 /* CustomCell.swift in Sources */,
+				38080A142184893100CFB294 /* SampleCollectionView.swift in Sources */,
+				380D106F21849D4500471150 /* PerCellPagingFlowLayout.swift in Sources */,
 				38045373204298E400ED4220 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

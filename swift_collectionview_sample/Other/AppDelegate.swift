@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  swift_collectionview_sample
 //
-//  Created by Manami Ichikawa on 2018/02/25.
-//  Copyright © 2018 Manami Ichikawa. All rights reserved.
+//  Created by  on 2018/02/25.
+//  Copyright © 2018 . All rights reserved.
 //
 
 import UIKit

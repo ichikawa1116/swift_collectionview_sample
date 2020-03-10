@@ -2,8 +2,8 @@
 //  swift_collectionview_sampleTests.swift
 //  swift_collectionview_sampleTests
 //
-//  Created by Manami Ichikawa on 2018/02/25.
-//  Copyright © 2018 Manami Ichikawa. All rights reserved.
+//  Created by  on 2018/02/25.
+//  Copyright © 2018 . All rights reserved.
 //
 
 import XCTest
